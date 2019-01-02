@@ -43,9 +43,7 @@ a {
     color: grey;
 }
 
-.result {
-   text-align:center;
-}
+
 
 #result {
     margin-top: 10px;
@@ -66,4 +64,14 @@ body{
     background-color:pink;
     height:15px;
     width:30px;
-    }
+}
+
+.header a:hover {
+  background-color:#a6d6f6;
+  color: red;
+  border-radius:75%;
+}
+
+.result {
+   text-align:center;
+}
