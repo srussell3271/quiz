@@ -130,21 +130,19 @@ function pointsForQuestion(){
    
 } 
 
+pointsForQuestion();
 
 $("button").click(function(){ 
     pointsForQuestion();
     totalPoints = question1Points + question2Points + question3Points +question4Points + question5Points + question6Points+ question7Points + question9Points + question10Points;
     
     var names = $("#name").val();
-
-
     if (totalPoints <40){
         alert("You " + names + " work In McDonalds");
         }
     else if(totalPoints >40 && totalPoints < 50){
         alert("You " + names + " work In Wendy's");
         }
-
     else if(totalPoints >50 && totalPoints < 60){
         alert("You " + names + " will work as A Secuirty Guard");
         }
@@ -157,9 +155,6 @@ $("button").click(function(){
     else if(totalPoints >80 ){
         alert("You " + names + " work for  anything you want");
         }
-
-
-
     });
-    
+
     
